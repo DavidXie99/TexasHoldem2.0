@@ -1,0 +1,24 @@
+====================Style Guide Rules and Conventions====================
+
+~~~~~~~~~~Naming~~~~~~~~~~
+Within code:
+
+	lowercase_with_underscores = variable names
+
+	underscores_With_Camel_Case = data structure names (class type objects not included)
+
+	camelCase = function names 
+
+	PascalCase = class type object definition names 
+	
+	
+Files and directories:
+	
+	-avoid spaces in file and directory names
+	 
+	-avoid capitalization in file names 
+	 use underscores between words
+	 
+	-use camel case for directory names (the project directory being an exception)
+	
+
