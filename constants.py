@@ -1,20 +1,21 @@
 
 
 ##Constants
+global_prime = 10**9 + 7
 
-player_const = 2
+player_const = 5
 card_const = 3
-pot_const = 5
+pot_const = 2
 
 
-##Mappings
+##Mappings and Arrays
 
 suit_Translation = {
                     0 : 'Spades',
                     1 : 'Hearts',
                     2 : 'Clubs',
                     3 : 'Diamonds'
-                  }
+                   }
 
 name_Translation = {
                     0 : 'Ace',
@@ -31,6 +32,12 @@ name_Translation = {
                     11 : 'Queen',
                     12 : 'King'
                   }
+
+id_Prefix = {
+                2 : 'po',
+                3 : 'ca',
+                5 : 'pl'
+            }
 
 """
 preflop_Odds index guide (number ranges shown in interval notation)

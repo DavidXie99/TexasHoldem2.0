@@ -1,6 +1,6 @@
 ##Imports
 import constants
-
+import misc_functions
                     
 ##Object Definitions
 
@@ -14,6 +14,7 @@ class Card:
         self.name = name_param
         self.value = value_param
         self.raw_value = raw_value_param
+        self.id = misc_functions.generateId( constants.card_const)
 
 class Pot:
     def __init__(self):
