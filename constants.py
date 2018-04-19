@@ -6,6 +6,7 @@ global_prime = 10**9 + 7
 player_const = 5
 card_const = 3
 pot_const = 2
+bet_const = 7
 
 
 ##Mappings and Arrays
@@ -36,7 +37,8 @@ name_Translation = {
 id_Prefix = {
                 2 : 'po',
                 3 : 'ca',
-                5 : 'pl'
+                5 : 'pl',
+                7 : 'bt'
             }
 
 """

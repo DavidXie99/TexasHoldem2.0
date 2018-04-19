@@ -1,7 +1,7 @@
 ##Imports
 import constants
 import misc_functions
-                    
+
 ##Object Definitions
 
 class Card:
@@ -20,20 +20,19 @@ class Pot:
     def __init__(self):
         self.stage_Pot = {}
         self.total_Pot = []
-        
+
     def clear(self):
         self.stage_Pot.clear()
         self.total_Pot.clear()
 
     def stageAdd(self,
-                 betObject):
-        if betObject.playerId in self.stage_Pot:
-            self.stage_Pot[ betObject.player_id ].bet += betObject.amount
-            self.stage_Pot[ betObject.player_id ].allInBool = betObject.allInBool
-            
+                 BetObject):
+        if BetObject.player_id in self.stage_Pot:
+            self.stage_Pot[ BetObject.player_id ].bet += BetObject.amount
+            self.stage_Pot[ BetObject.player_id ].all_in_bool = BetObject.all_in_bool
+
     def totalAdd(self,
                  player_id):
         if playerId in self.stage_Pot:
-            self.total_Pot[-1] += self.stage_Pot[ player_id ].bet 
+            self.total_Pot[-1] += self.stage_Pot[ player_id ].bet
             del self.stage_Pot[ player_id ]
-
