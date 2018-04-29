@@ -7,6 +7,8 @@ player_const = 5
 card_const = 3
 pot_const = 2
 bet_const = 7
+dealer_const = 11
+table_const = 13
 
 
 ##Mappings and Arrays
@@ -29,16 +31,18 @@ name_Translation = {
                     7 : 'Eight',
                     8 : 'Nine',
                     9 : 'Ten',
-                    10 : 'Jack',
-                    11 : 'Queen',
-                    12 : 'King'
+                    10: 'Jack',
+                    11: 'Queen',
+                    12: 'King'
                   }
 
 id_Prefix = {
                 2 : 'po',
                 3 : 'ca',
                 5 : 'pl',
-                7 : 'bt'
+                7 : 'bt',
+                11: 'dl',
+                13: 'ta'
             }
 
 """
